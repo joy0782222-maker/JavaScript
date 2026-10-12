@@ -22,7 +22,7 @@
         //입력창(확인/취소)
         // prompt("생년월일", "yyyy-mm-dd")
 
-        //변수
+        //변수_재할당 ㄴㄴ
         const name = "hi"
         const age = 20
 
@@ -33,8 +33,23 @@
         document.write(`<h1>${name}</h1>`)
         document.write("<h1>" + name + "</h1>")//올드스쿨
         
-        
+        //변수 let_재할당 ㅇㅇ
+        let name1 = "oo"
+        console.log(name1);
+        // name = "aa"
 
+        console.log(name1);
+        const age1 = 20
+        console.log(age1);
+        // age = 30
+        console.log(age1);
+        
+        //var는 오류가 많이나서 이제안씀. const 젤 안전
+
+        let userName = prompt("이름 입력", "ooo")
+        console.log(userName);
+        document.write(`<h1>이름 : ${userName}</h1> <p>나이 : ${age}</p>`)
     </script>
+    
 </body>
 </html>
